@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_centerInParent="true"
+    android:layout_margin="4dp"
+
+
+    android:layout_height="wrap_content">
+
+
+
+    <TableRow
+        android:layout_margin="4dp">
+
+
+        <TextView
+            android:text="Type of Menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="20sp"
+
+            android:layout_column="1" />
+
+        <LinearLayout
+
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Veg"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Non-Veg"/>
+        </LinearLayout>
+
+
+
+
+
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_margin="4dp">
+
+        <TextView
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:text="Drinks"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+
+        <LinearLayout
+
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Lemon Juice"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Soups"/>
+
+
+        </LinearLayout>
+    </TableRow>
+    <TableRow android:layout_margin="4dp">
+
+        <TextView
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:text="Starters"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+
+        <LinearLayout
+
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tikka"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Kabab"/>
+
+
+        </LinearLayout>
+    </TableRow>
+    <TableRow android:layout_margin="4dp">
+
+        <TextView
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:text="Main Dish"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+
+        <LinearLayout
+
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Roti"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Noodles"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Biryani"/>
+
+
+        </LinearLayout>
+
+    </TableRow>
+    <TableRow android:layout_margin="4dp">
+
+        <TextView
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:text="Deserts"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+
+        <LinearLayout
+
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ice Cream"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Sweet Dish"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Biryani"/>
+
+
+        </LinearLayout>
+
+    </TableRow>
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Send"
+
+
+        />
+
+
+
+
+
+
+
+</TableLayout>

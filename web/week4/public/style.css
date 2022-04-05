@@ -1,0 +1,104 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  text-align: center;
+  font-weight: 600;
+}
+
+h1 {
+  border-bottom: 2px solid;
+  height: 32px;
+}
+
+input[type="text"] {
+  border: none;
+  border-bottom: 1px dashed #83a4c5;
+  width: 250px;
+  outline: none;
+  padding: 0px 0px 0px 0px;
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 150;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.btn {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset,
+    rgba(44, 187, 99, 0.15) 0 1px 2px, rgba(44, 187, 99, 0.15) 0 2px 4px,
+    rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px,
+    rgba(44, 187, 99, 0.15) 0 16px 32px;
+  color: rgb(255, 0, 242);
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  font-weight: 700;
+  width: 150px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.form {
+  
+  margin-bottom: 25px;
+  border: 2px solid black;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  width: 100%;
+}
+
+thead {
+  font-size: 20px;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px dashed rgb(12, 11, 11);
+  border-left: 1px dashed rgb(12, 11, 11);
+}
+
+.scroll {
+  margin-top: 27px;
+  border-top: 3px solid black;
+  height: 230px;
+  overflow-y: scroll;
+}
+
+.edit {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  text-align: center;
+  background-color: green;
+  margin-left: 3px;
+  border: 0.5px solid black;
+}
+
+.delete {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  text-align: center;
+  background-color: red;
+  margin-left: 20px;
+  border: 0.5px solid black;
+}

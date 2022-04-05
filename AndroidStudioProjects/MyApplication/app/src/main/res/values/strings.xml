@@ -1,0 +1,23 @@
+<resources>
+<string name="app_name">My Application</string>
+<string name="submit">Submit</string>
+<string name="password">Password</string>
+<string name="username">Username</string>
+<string name="type_of_menu">Type of Menu</string>
+<string name="veg">Veg</string>
+<string name="non_veg">Non-Veg</string>
+<string name="drinks">Drinks</string>
+<string name="lemon_juice">Lemon Juice</string>
+<string name="soups">Soups</string>
+<string name="starters">Starters</string>
+<string name="tikka">Tikka</string>
+<string name="kabab">Kabab</string>
+<string name="main_dish">Main Dish</string>
+<string name="roti">Roti</string>
+<string name="noodles">Noodles</string>
+<string name="deserts">Deserts</string>
+<string name="ice_cream">Ice Cream</string>
+<string name="sweet_dish">Sweet Dish</string>
+<string name="biryani">Biryani</string>
+<string name="send">Send</string>
+</resources>
